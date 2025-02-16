@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Web site created using create-react-app" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>React App</title>
+    <style>
+      .heading   {
+        color: white !important;
+      }
+        .pac-target-input {
+        background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: none;
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+    color: white;
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    height: 50px;
+    line-height: 1.5;
+    padding: 6px 20px;
+    width: 80%;
+      }
+      .weather {
+        --Paper-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+       width: 60%;
+        margin-left: 18%;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+      }
+      .header {
+        background: linear-gradient(-45deg, #0c9ed4 0%, #51c9f5 100%);
+    padding: 14px;
+    width: 104% !important;
+    margin-left: -2% !important;
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+
+    <!-- ✅ Move Google Maps API script here -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLd_kR2bLVqLLVDrZ-1oBgN5hTqLmRfgM&libraries=places"
+      async
+      defer
+    ></script>
+  </body>
+</html>
